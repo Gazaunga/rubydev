@@ -22,7 +22,7 @@ pacaur -S --noconfirm --noedit emacs neovim python2-neovim python-neovim \
   openshot \
   leafpad \
   lxappearance \
-  rxvt-unicode terminator \
+  terminator \
   fontforge \
   krita \
   pandoc typora \
