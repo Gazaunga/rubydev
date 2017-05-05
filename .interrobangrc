@@ -38,6 +38,7 @@ bang eco      = chromium https://ecosia.org/?q=%s
 bang math     = notify-send "$(echo '%s' | bc -l)"
 bang ?        = echo "interrobang ignored \"%s\""
 bang quit     = case "%s" in shutdown) sudo systemctl poweroff ;; sleep) sudo systemctl suspend ;; reboot) sudo systemctl reboot ;; logout) killall xinit ;; cancel) exit ;; esac
+bang yt       = google-chrome-beta "www.youtube.com"
 
 ## █▓▒░ tab completions
 tab default   = percontation "%s" %s | sort -u
