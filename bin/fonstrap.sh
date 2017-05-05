@@ -17,3 +17,5 @@ pacaur -S --noconfirm --noedit ttf-hack \
   font-mathematica \
   ttf-mac-fonts \
 fc-cache -fv
+cd ~/rubydev
+bash deploy.sh
