@@ -54,4 +54,4 @@ alias la="ls -o -AhX --group-directories-first"
 
 alias texupdate='tlmgr update --all'
 
-alias glog="git log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short"
+
