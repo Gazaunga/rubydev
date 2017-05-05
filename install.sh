@@ -30,7 +30,7 @@ pacaur -S --noconfirm --noedit emacs neovim python2-neovim python-neovim \
   texlive-most \
   darktable \
 curl -sLf https://spacevim.org/install.sh | bash
-
 cd
 mv .xmonad .xmonad.orig
 git clone https://github.com/Gazaunga/xmonad-config.git .xmonad
+bash rubystrap.sh
