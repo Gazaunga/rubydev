@@ -16,4 +16,4 @@ pacaur -S --noconfirm --noedit ttf-hack \
   ttf-symbola \
   font-mathematica \
   ttf-mac-fonts \
-fc-cache -v
+fc-cache -fv
