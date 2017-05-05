@@ -39,3 +39,8 @@ shopt -s extglob
 
 # Include filenames beginning with a '.' in the results of pathname expansions
 shopt -s dotglob
+
+# Reclaim Ctrl-S and Ctrl-Q used for suspend/resume and use it for modern mapppings
+stty -hupcl -ixon -ixoff
+stty stop undef
+stty susp undef
