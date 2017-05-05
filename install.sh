@@ -11,7 +11,7 @@ sudo cabal update
 cabal install --global yeganesh
 pacaur -S --noconfirm --noedit emacs neovim python2-neovim python-neovim \
   rofi \
-  otf-font-awesome oblogout ttf-hack-powerline-git ttf-hack-ibx \
+  oblogout \
   polybar \
   dolphin dolphin-plugins kompare kdegraphics-thmbnailers kdesdk-thumbnailers ffmpegthumbs raw-thumbnailer taglib kde-thumbnailer-epub \
   libreoffice \
