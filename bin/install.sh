@@ -37,6 +37,6 @@ pacaur -S --noconfirm --noedit emacs neovim python2-neovim python-neovim \
 curl -sLf https://spacevim.org/install.sh | bash
 cd ~
 touch .xbindkeysrc
-mv .xmonad .xmonad.orig
+mv -f .xmonad .xmonad.orig
 git clone https://github.com/Gazaunga/xmonad-config.git .xmonad
 bash rubystrap.sh
