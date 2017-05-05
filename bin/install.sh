@@ -33,8 +33,10 @@ pacaur -S --noconfirm --noedit emacs neovim python2-neovim python-neovim \
   okular \
   chromium \
   interrobang-git \
+  xbindkeys xbindkeys_config-gtk2 \
 curl -sLf https://spacevim.org/install.sh | bash
 cd ~
+touch .xbindkeysrc
 mv .xmonad .xmonad.orig
 git clone https://github.com/Gazaunga/xmonad-config.git .xmonad
 bash rubystrap.sh
