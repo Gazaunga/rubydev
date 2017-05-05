@@ -30,6 +30,8 @@ pacaur -S --noconfirm --noedit emacs neovim python2-neovim python-neovim \
   texlive-most \
   darktable \
   rubymine \
+  okular \
+  chromium \
 curl -sLf https://spacevim.org/install.sh | bash
 cd ~
 mv .xmonad .xmonad.orig
