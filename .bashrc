@@ -22,3 +22,20 @@ if [ "$TERM" = "screen" ]; then
 fi
 
 export XDG_CONFIG_HOME=$HOME/.config
+
+# Auto-correct misspelled directories
+shopt -s dirspell direxpand
+
+# Check the window size after each command and, if necessary,
+# Update the values of LINES and COLUMNS.
+shopt -s checkwinsize
+
+# The pattern "**" used in a pathname expansion context will
+# Match all files and zero or more directories and subdirectories.
+shopt -s globstar
+
+# Extended pattern matching features are enabled
+shopt -s extglob
+
+# Include filenames beginning with a '.' in the results of pathname expansions
+shopt -s dotglob
