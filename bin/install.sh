@@ -3,7 +3,7 @@
 # Create a new directory and enter it
 mkd() { mkdir $1 && cd $1; }
 ##
-sudo pacman -Syu --noconfirm -- needed
+sudo pacman -Syu --noconfirm --needed
 git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
 pacaur -S --noconfirm --noedit xmonad xmonad-contrib xmobar dmenu scrot \
     cabal-install xcompmgr
