@@ -29,6 +29,7 @@ pacaur -S --noconfirm --noedit emacs neovim python2-neovim python-neovim \
   xfce4-taskmanager \
   texlive-most \
   darktable \
+  rubymine \
 curl -sLf https://spacevim.org/install.sh | bash
 cd ~
 mv .xmonad .xmonad.orig
