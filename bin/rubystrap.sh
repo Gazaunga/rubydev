@@ -15,5 +15,5 @@ git config --global user.email "jeremy.ottley@gmail.com"
 git config --global core.autocrlf input
 git config --global core.safecrlf true
 sudo chmod +x ~/bin/fontstrap.sh
-bash fontstrap.sh
+sh fontstrap.sh
 
