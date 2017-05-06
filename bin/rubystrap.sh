@@ -1,5 +1,5 @@
 #!/bin/bash
-pacaur -S --noconfirm --noedit ruby rbenv
+pacaur -S --noconfirm --noedit ruby rbenv ruby-docs
 echo "PATH='$(ruby -e 'print Gem.user_dir')/bin:$PATH'" >> ~/.bashrc
 echo "GEM_HOME=$(ls -t -U | ruby -e 'puts Gem.user_dir')" >> ~/.bashrc
 echo "GEM_PATH=$GEM_HOME" >> ~/.bashrc
