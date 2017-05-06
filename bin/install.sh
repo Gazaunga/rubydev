@@ -39,4 +39,4 @@ cd ~
 touch .xbindkeysrc
 mv -f .xmonad .xmonad.orig
 git clone https://github.com/Gazaunga/xmonad-config.git .xmonad
-bash rubystrap.sh
+sh rubystrap.sh
