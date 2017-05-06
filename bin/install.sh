@@ -33,7 +33,7 @@ pacaur -S --noconfirm --noedit emacs neovim python2-neovim python-neovim \
   okular \
   chromium \
   interrobang-git \
-  xbindkeys \
+  xbindkeys
 curl -sLf https://spacevim.org/install.sh | bash
 cd ~
 touch .xbindkeysrc
