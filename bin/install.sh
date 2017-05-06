@@ -13,7 +13,7 @@ pacaur -S --noconfirm --noedit emacs neovim python2-neovim python-neovim \
   rofi \
   oblogout \
   polybar \
-  dolphin dolphin-plugins kompare kdegraphics-thmbnailers kdesdk-thumbnailers ffmpegthumbs raw-thumbnailer taglib kde-thumbnailer-epub \
+  dolphin dolphin-plugins kompare kdegraphics-thumbnailers kdesdk-thumbnailers ffmpegthumbs raw-thumbnailer taglib kde-thumbnailer-epub \
   libreoffice \
   feh \
   smplayer smtube smplayer-themes smplayer-skins tree \
