@@ -18,4 +18,4 @@ pacaur -S --noconfirm --noedit ttf-hack \
   ttf-mac-fonts \
 fc-cache -fv
 cd ~/rubydev
-bash deploy.sh
+sh deploy.sh
