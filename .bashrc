@@ -44,3 +44,9 @@ shopt -s dotglob
 stty -hupcl -ixon -ixoff
 stty stop undef
 stty susp undef
+
+PATH="$(ruby -e 'print Gem.user_dir')/bin:$PATH"
+#Setting the GEM_PATH and GEM_HOME variables may not be necessary, check 'gem env' output to verify whether both variables already exist 
+# GEM_HOME=$(ls -t -U | ruby -e 'puts Gem.user_dir')
+ #GEM_PATH=$GEM_HOME
+ #export PATH=$PATH:$GEM_HOME/bin
