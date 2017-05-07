@@ -15,6 +15,8 @@ git config --global user.name "Gazaunga"
 git config --global user.email "jeremy.ottley@gmail.com"
 git config --global core.autocrlf input
 git config --global core.safecrlf true
+sudo gem install --no-user-instal rails rake jekyll bundler
+bundle install --path vendor/bundle 
 sudo chmod +x ~/bin/fontstrap.sh
 sh fontstrap.sh
 
