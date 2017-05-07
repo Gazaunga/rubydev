@@ -32,7 +32,7 @@ pacaur -S --noconfirm --noedit emacs neovim python2-neovim python-neovim \
   rubymine \
   okular \
   chromium \
-  interrobang-git \
+  interrobang-git sublime-text \
   xbindkeys
 curl -sLf https://spacevim.org/install.sh | bash
 cd ~
