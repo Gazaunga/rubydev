@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+source ~/rubydev/bin/utils/sh
 set -e
 
 # Source: https://gist.github.com/davejamesmiller/1965569
@@ -27,7 +27,7 @@ ask() {
 }
 
 dir=`pwd`
-
+e_header "A few questions to finish up..."
 if ask "Install symlink for .xinitrc?" Y; then
   ln -sf ${dir}/.xinitrc ${HOME}/.xinitrc
 fi
