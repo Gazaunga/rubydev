@@ -26,5 +26,5 @@ sudo gem install --no-user-instal rails rake jekyll bundler
 bundle install --path vendor/bundle 
 sudo chmod +x ~/bin/fontstrap.sh
 e_success "I think we're ready for some cool fonts now"
-sh fontstrap.sh
+bash fontstrap.sh
 
