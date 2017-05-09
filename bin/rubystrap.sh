@@ -14,7 +14,9 @@ gem install jekyll
 gem install rake
 gem install rails
 gem install sinatra
-gem install rails
+gem install thin
+gem install asciidoctor
+gem install ruby-doc
 gem update
 git config --global user.name "Gazaunga"
 git config --global user.email "jeremy.ottley@gmail.com"
