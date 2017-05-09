@@ -23,6 +23,5 @@ pacaur -S --noconfirm --noedit ttf-hack ttf-google-fonts-git \
   font-mathematica \
   ttf-mac-fonts \
 fc-cache -fv
-cd ~/rubydev
 e_header "It's time to DEPLOY!"
 bash deploy.sh
