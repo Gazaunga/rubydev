@@ -13,6 +13,8 @@ gem install bundler
 gem install jekyll
 gem install rake
 gem install rails
+gem install sinatra
+gem install rails
 gem update
 git config --global user.name "Gazaunga"
 git config --global user.email "jeremy.ottley@gmail.com"
