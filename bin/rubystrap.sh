@@ -1,13 +1,15 @@
 #!/bin/bash
 source ~/rubydev/bin/utils/sh
 e_success "Let's grab Ruby and ruby-docs"
-pacaur -S --noconfirm --noedit ruby rbenv ruby-docs
-e_success "Make sure rubygems are in your path!"
-echo "PATH='$(ruby -e 'print Gem.user_dir')/bin:$PATH'" >> ~/.bashrc
-echo "GEM_HOME=$(ls -t -U | ruby -e 'puts Gem.user_dir')" >> ~/.bashrc
-echo "GEM_PATH=$GEM_HOME" >> ~/.bashrc
-echo "export PATH=$PATH:$GEM_HOME/bin" >> ~/.bashrc
-echo "export GEM_HOME=$(ruby -e 'print Gem.user_dir')" >> ~/.bashrc
+cd ~
+git clone git://github.com/sstephenson/rbenv.git .rbenv
+git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
+echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> /etc/profile.d/rbenv.sh
+echo 'eval "$(rbenv init -)"' >> /etc/profile.d/rbenv.sh
+source /etc/profile
+rbenv install 2.4.1
+rbenv rehash
+rbenv global 2.4.1
 touch ~/.gemrc
 gem install bundler
 gem install jekyll
