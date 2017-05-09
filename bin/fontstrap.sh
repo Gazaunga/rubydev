@@ -25,4 +25,4 @@ pacaur -S --noconfirm --noedit ttf-hack ttf-google-fonts-git \
 fc-cache -fv
 cd ~/rubydev
 e_header "It's time to DEPLOY!"
-sh deploy.sh
+bash deploy.sh
