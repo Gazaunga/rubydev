@@ -1,6 +1,7 @@
 #!/bin/bash
 
 PATH=$PATH:$HOME/bin
+TIMEFORMAT=%R
 
 export EDITOR='rubymine'
 export BROWSER='chromium'
