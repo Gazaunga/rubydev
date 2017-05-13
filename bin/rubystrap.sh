@@ -26,6 +26,7 @@ git config --global core.autocrlf input
 git config --global core.safecrlf true
 sudo gem install --no-user-instal rails rake jekyll bundler
 bundle install --path vendor/bundle 
+sudo gem rdoc --all --ri --no-rdoc
 sudo chmod +x ~/bin/fontstrap.sh
 e_success "I think we're ready for some cool fonts now"
 bash fontstrap.sh
