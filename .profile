@@ -15,4 +15,4 @@ export FILEBROWSER='dolphin'
 # remap shift-space to underscore for 60% keyboards
 xmodmap -e 'keycode 65 = space underscore space'
 
-Source ~/.env
+source ~/.env
