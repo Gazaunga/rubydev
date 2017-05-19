@@ -50,3 +50,19 @@ PATH="$(ruby -e 'print Gem.user_dir')/bin:$PATH"
 # GEM_HOME=$(ls -t -U | ruby -e 'puts Gem.user_dir')
  #GEM_PATH=$GEM_HOME
  #export PATH=$PATH:$GEM_HOME/bin
+ 
+ # .env loading in the shell
+dotenv () {
+  set -a
+  [ -f .env ] && . .env
+  set +a
+}
+
+# Run dotenv on login
+dotenv
+
+# Run dotenv on every new directory
+cd () {
+  builtin cd $@
+  dotenv
+}
