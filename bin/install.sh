@@ -1,5 +1,5 @@
 #!/bin/bash
-source ~/rubydev/bin/utils/sh
+source ~/rubydev/bin/utils.sh
 # Functions #
 # Create a new directory and enter it
 mkd() { mkdir $1 && cd $1; }
