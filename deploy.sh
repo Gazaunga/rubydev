@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-source ~/rubydev/bin/utils/sh
+source ~/rubydev/bin/utils.sh
 set -e
 
 # Source: https://gist.github.com/davejamesmiller/1965569
