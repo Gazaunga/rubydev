@@ -1,0 +1,10 @@
+set mouse
+set suspend
+set backup 
+#set autoindent
+#set tabstospaces
+set cut
+set historylog
+set smooth
+set nowrap
+set softwrap
