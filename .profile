@@ -16,3 +16,5 @@ export FILEBROWSER='dolphin'
 xmodmap -e 'keycode 65 = space underscore space'
 
 source ~/.env
+
+export PATH=/gazbit/bin:/gazbit/dev:/gazbit/.bin:$PATH
