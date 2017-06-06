@@ -14,6 +14,32 @@
 
 PS1="\[\e[0;1m\]┌─ \u@\[\e[1;34m\]\h\[\e[0;1m\]:\w\n└──● \[\e[0m\]"
 
+# Check which term we are using
+case "$TERM" in
+    xterm*)
+        TERMLIST=(
+            xterm-256color
+            xterm-16color
+            xterm-color
+            xterm
+            ) ;;
+    screen*)
+        TERMLIST=(
+            screen-256color-bce
+            screen-256color
+            screen-16color-bce
+            screen-16color
+            screen
+            ) ;;
+    *)
+        TERMLIST="$TERM" ;;
+esac
+for term in $TERMLIST; do
+    infocmp "$term" >/dev/null 2>&1 &&
+        export TERM=$term &&
+        break
+done
+
 # Make less more friendly for non-text input files, see lesspipe(1)
 [ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
 
