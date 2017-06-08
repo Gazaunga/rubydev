@@ -1,5 +1,5 @@
 #!/bin/bash
-source ~/rubydev/bin/utils/sh
+source ~/rubydev/bin/utils.sh
 cd ~
 mkdir .fonts
 cd .fonts
